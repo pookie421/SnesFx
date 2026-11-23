@@ -102,7 +102,7 @@ make OUT=build/with-ipl IPL=path/to/ipl.bin linux
 
 ## Read the diagnostic result
 
-A successful run of the bundled cartridge reports:
+A successful run of the bundled cartridge produces this summary.
 
 ```text
 ticks=00000000:0004afd4 bus=000088ad hash=9508479c frames=00000001 wram=50415353 fault=00000000 status=00000001

@@ -4,7 +4,7 @@ SnesFx is a headless SNES emulator written in NASM. The Linux, macOS, Windows, D
 
 ## Report a bug
 
-1. Search the open issues for the symptom, hardware feature, or register involved. Add a reproduction to an existing issue if it describes the same behavior.
+1. Search the open issues for the symptom, hardware feature, or register involved. Add a reproduction to an existing issue if it describes the same behavior. [SnesFx issues](https://github.com/pookie421/SnesFx/issues)
 2. Include the SnesFx commit ID, runner, CPU and operating system, NASM version, and exact build and run commands. Specify whether execution used physical hardware, Rosetta, or a virtual machine. For the optional SPC700 build, identify the IPL by SHA-256 and describe its origin.
 3. Describe the observed and expected behavior, the shortest instruction budget that reproduces it, and the emulator's exit code and summary line. For timing failures, include the first differing event's tick, address, bus owner, and value. A cropped PPM or a short trace excerpt from an original diagnostic fixture can help isolate the problem.
 4. Use an original minimal test ROM when possible. Keep third-party ROMs, firmware, IPL dumps, save data, and traces containing their bytes local. Share a source link, title, region, revision, or checksum where those identifiers are useful. Use original source and assets for new fixtures.
